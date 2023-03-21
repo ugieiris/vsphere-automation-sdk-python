@@ -1,0 +1,5 @@
+FROM docker-registry-iris.groupement.systeme-u.fr/iris-factory/poetry:1.2-buster-slim
+
+ENV PATH="$PATH:/home/ci/.local/bin"
+
+ENTRYPOINT []
